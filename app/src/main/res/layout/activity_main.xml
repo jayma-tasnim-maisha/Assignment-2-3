@@ -38,7 +38,7 @@
         android:id="@+id/et_register_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="E_mail"
+        android:hint="E-mail"
         android:textColorHint="#7E7C7C"
         android:inputType="text"
         android:padding="12dp"
