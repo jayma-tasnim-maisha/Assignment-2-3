@@ -13,22 +13,19 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".Expandable_list_Activity"
+            android:name=".CustomExpandableAdapter"
             android:exported="false" />
         <activity
-            android:name=".ListActivity"
+            android:name=".CustomAdapter"
             android:exported="false" />
         <activity
-            android:name=".Expandable_list"
-            android:exported="false" />
-        <activity
-            android:name=".listview"
+            android:name=".OrderActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity
-            android:name=".OrderActivity"
+            android:name=".ListViewActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
